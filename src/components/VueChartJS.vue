@@ -24,6 +24,11 @@
         <h3>Reactivity - Live update upon change in datasets</h3>
       </div>
     </div>
+    <div class="column">
+      <h3>Reactivity - Live update upon change in datasets</h3>
+      <reactive :chart-data="dataContents"></reactive>
+      <button class="button is-primary" @click="fillData()">Ramdomize</button>
+    </div>
   </section>
 </template>
 <script>
