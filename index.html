@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vuecli-chartjs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="column">
+      <h3>Reactivity - Live update upon change in datasets</h3>
+      <reactive :chart-data="dataContents"></reactive>
+      <button class="button is-primary" @click="fillData()">Ramdomize</button>
+    </div>
+  </body>
+</html>
