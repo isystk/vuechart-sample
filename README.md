@@ -1,4 +1,4 @@
-# vuecli-chartjs
+# webpack-vuechart
 
 > A Vue.js project
 
